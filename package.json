@@ -1,6 +1,6 @@
 {
   "name": "react-native-audio-kit",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "iOS/Android audio library for React Native",
   "repository": {
     "type": "git",
