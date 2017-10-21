@@ -8,7 +8,7 @@ an actual Android/iOS device:
 * Install library via npm
 
     ```
-    npm install --save react-native-audio-toolkit
+    npm install --save react-native-audio-kit
     ```
 
 * Follow the platform specific steps for each platform you wish to support:
@@ -20,8 +20,8 @@ an actual Android/iOS device:
     ```
     ...
 
-    include ':react-native-audio-toolkit'
-    project(':react-native-audio-toolkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio-toolkit/android/lib')
+    include ':react-native-audio-kit'
+    project(':react-native-audio-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio-kit/android/lib')
     ```
 
 2. Add dependency to `android/app/build.gradle`
@@ -31,7 +31,7 @@ an actual Android/iOS device:
 
     dependencies {
         ...
-        compile project(':react-native-audio-toolkit')
+        compile project(':react-native-audio-kit')
     }
     ```
 
@@ -79,7 +79,7 @@ an actual Android/iOS device:
 
 1. Right click `Libraries`, click `Add Files to "ExampleApp"`
 
-2. Select `node_modules/react-native-audio-toolkit/ios/ReactNativeAudioToolkit/ReactNativeAudioToolkit.xcodeproj`
+2. Select `node_modules/react-native-audio-kit/ios/ReactNativeAudiokit/ReactNativeAudioToolkit.xcodeproj`
 
 3. Select your app from the Project Navigator, click on the `Build Phases` tab.
     Expand `Link Binary With Libraries`. Click the plus and add
@@ -94,7 +94,7 @@ an actual Android/iOS device:
         Player,
         Recorder,
         MediaStates
-    } from 'react-native-audio-toolkit';
+    } from 'react-native-audio-kit';
 
     ...
     ```
